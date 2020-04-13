@@ -1,0 +1,12 @@
+{
+  "name": "conceitos-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:thiagodevbr/conceitos-react.git",
+  "author": "Thiago <thiago.brito@aluno.faculdadeimpacta.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
