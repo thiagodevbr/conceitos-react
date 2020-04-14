@@ -1,14 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
 
 export default function App() {
+  const [projects, setProjects] = useState([
+    "Desenvolvimento APP",
+    "FrontEnd React",
+  ]);
+
+  function handleAddProject() {
+    setProjects([...projects, `Novo projeto ${Date.now()}`]);
+    //projects.push(`Novo projeto ${Date.now()}`);
+    console.log(projects);
+  }
+
   return (
-    <Header title="Conteudo de React">
+    <>
+      <Header title="Conteudo de React" />
       <ul>
-        <li>Node</li>
-        <li>React</li>
-        <li>Native</li>
+        {projects.map((p) => (
+          <li key={p}>{p}</li>
+        ))}
       </ul>
-    </Header>
+      <button type="button" onClick={handleAddProject}>
+        Adicionar projeto
+      </button>
+    </>
   );
 }
