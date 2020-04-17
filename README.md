@@ -1,24 +1,16 @@
 
-![github-small](https://miro.medium.com/max/3200/1*OvYjQmX9G7QXZkMYQE-wpQ.jpeg)
+![github-small](https://miro.medium.com/max/1000/1*-_JN8MPndFy7Wksb90Rc_A.jpeg)
 
 <p align="center">
-  <b>Conceitos de ReactJS</b><br><br>
-  <b>Fase de conceitos de React do Bootcamp da RocketSeat</b>
+  <b>Desafio 05: Primeiro projeto Node.js</b><br><br>
+  <b>“Para quem fica melhor a cada dia, ficar pronto é utopia”!</b>
 </p>
 
 ## Sobre o repositório
 
-Aqui será aplicado as fases de conceito do React do bootcamp. Neste conterá os seguintes tópicos: 
+Nesse desafio, foi criado uma API REST para continuar treinando o que foi aprendido até agora no Node.js junto ao TypeScript, utilizando o conceito de models, repositories e services! 
 
-+ Configurando Babel
-+ Configurando webpack
-+ Componentização
-+ Propriedades
-+ Estado e Imutabilidade
-+ Importando CSS e Imagens
-+ Listando projetos da API
-+ Cadastrando Projetos
 
 ## Para rodar este projeto em sua máquina local
 
-Faça um clone do repositório e dentro da pasta em sua IDE ou no terminal, rode **yarn** para instalar os pacotes
+Faça um clone do repositório e dentro da pasta em sua IDE ou no terminal, rode **yarn** para instalar os pacotes. Em seguida, execute yarn dev:server para o node escutar na porta 3333
